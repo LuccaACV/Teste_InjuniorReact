@@ -1,0 +1,28 @@
+:root{
+    --blue1: #0E0E1B;
+    --blue2: #1C1C2F;
+    --blue3: #00274F;
+    --blue4: #004B96;
+    --blue5: #036FDB;
+    --blue6: #007DFA;
+
+    --gray1: #888888;
+    --gray2: #999999;
+    --gray3: #CCCCCC;
+    --gray4: #DDDDDD;
+    --whiteFigma: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--blue3);
+}
+
+body, input, textarea, button {
+    font-size: 1rem;
+}
