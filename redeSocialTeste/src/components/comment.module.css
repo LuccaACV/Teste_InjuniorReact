@@ -1,0 +1,59 @@
+.comment{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.comment > img{
+    display: flex;
+    align-self: flex-start;
+    width: 3.9rem;
+    height: 3.9rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content{
+    background-color: var(--blue2);
+    width: 100%;
+    display: flex;
+    padding: 0.7rem 1.4rem 1.75rem 1.4rem;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.content > header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content > header > div > h1 {
+    font-size: .875rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.content > header > div > h2 {
+    font-size: .875rem;
+    color: #999999;
+    font-weight: 700;
+}
+
+.content > header > img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.content > main{
+    margin-top: 1.8rem;
+    font-size: .875rem;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.likes > h1{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #DDDDDD;
+}
