@@ -11,7 +11,7 @@ export function Post(){
                         <div>Engenheira</div>
                     </div>
                 </div>
-                <div>Publicado a 1h</div>
+                <time>Publicado a 1h</time>
             </header>
             <div className={styles.body}>
                 <h1>
@@ -20,9 +20,11 @@ export function Post(){
                 Enim, quae distinctio. Enim laboriosam in nulla cum sunt corporis vero, odit dolores, omnis modi veniam natus consectetur iusto praesentium porro culpa eius placeat commodi. Quae id obcaecati aliquid quasi.
                 </h1>
             </div>
-            <div>
-
-            </div>
+            <form action='' className={styles.form}>
+                <label>Deixe seu feedback</label>
+                <textarea placeholder='Escreva um comentário...'></textarea>
+                <button>Comentar</button>
+            </form>
         </div>
     )
 }

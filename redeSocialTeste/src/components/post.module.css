@@ -26,7 +26,7 @@
     overflow: hidden;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid var(--blue4) ;
+    border: 0.3rem solid var(--blue4) ;
  }
 
  .header > div div div:first-of-type{
@@ -39,8 +39,9 @@
     color: #999999;
  }
 
- .header div:last-of-type {
+ .header > time {
    color: #FFFFFF;
+   align-self: center;
  }
 
  .body{
@@ -50,4 +51,49 @@
  .body h1{
    color: #CCCCCC;
    font-size: 1rem;
+ }
+.form{
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+}
+
+.form > label{
+   color: #FFFFFF;
+   font-weight: 700;
+}
+
+.form > textarea{
+   height: 7rem;
+   resize: none;
+   border-radius: 0.5rem;
+   padding: 1rem;
+   color: black;
+   outline: 0;
+   border: 0;
+}
+
+.form textarea:focus{
+   box-shadow: 0 0 0 .17rem var(--blue5);
+}
+
+.form textarea:focus + button{
+   display: block;
+}
+
+
+ .form > button{
+   display: none;
+   width: 8.6rem;
+   height: 3rem;
+   border-radius: 0.5rem;
+   text-align: center;
+   background-color: var(--blue5);
+   border: 0;
+   font-size: 1rem;
+   color: #FFFFFF;
+ }
+
+ .form button:hover{
+   cursor: pointer;
  }
