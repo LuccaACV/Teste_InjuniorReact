@@ -1,4 +1,5 @@
 import styles from './comment.module.css'
+import { Trash,ThumbsUp } from 'phosphor-react'
 
 export function Comment(){
     return(
@@ -11,17 +12,21 @@ export function Comment(){
                             <h1>Ronaldinho</h1>
                             <h2>cerca de 2h</h2>
                         </div>
-                        <img src="https://cdn.icon-icons.com/icons2/931/PNG/512/delete_remove_bin_icon-icons.com_72400.png" alt="" />
+                        <button>
+                            <Trash size={24}/>
+                        </button>
                     </header>
                     <main>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat reprehenderit ducimus facere doloremque sapiente, vitae mollitia ipsum nihil suscipit labore maiores quae ab minima praesentium, quia ut repellat. Voluptatibus, voluptas.
-                        Provident iure ipsum voluptate quibusdam esse nemo totam id praesentium quis iusto qui vero, voluptatibus inventore illum earum excepturi aspernatur sit consequuntur eaque, eveniet, vel deleniti nulla. Corrupti, harum eaque?
-                        Sint possimus laboriosam perspiciatis corrupti, quis esse voluptate sunt dolores adipisci quibusdam a labore aut, sit dolore mollitia hic ut soluta odit! Magni aperiam, excepturi vitae eligendi qui quo nihil?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis dolorem, esse vitae possimus delectus sequi sed aliquam numquam, quibusdam, rem fugit alias veritatis mollitia quasi dolor distinctio. Quasi, fuga iste!
+                        Non dolorem molestiae ut, qui rerum ipsam voluptas illo corrupti quaerat. Dolorem, eos? Nisi, ullam maxime, quos at amet earum et debitis quisquam exercitationem eaque molestiae repudiandae impedit iure aliquid?
+                        Nam voluptas, earum suscipit delectus totam debitis quam repudiandae dolores minima sapiente dolorum aperiam dignissimos? Illo harum aspernatur delectus obcaecati, culpa explicabo non quasi, eaque ab modi sapiente fugiat? Voluptatum?
                     </main>
                 </div>
                 <div className={styles.likes}>
-                    <img src="" alt="" />
-                    <h1>Like * 7</h1>
+                    <button>
+                        <ThumbsUp size={20}/>  
+                        <p>Like <span>7</span></p>  
+                    </button>
                 </div>
             </div>
         </div>
